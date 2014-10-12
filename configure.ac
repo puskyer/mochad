@@ -1,8 +1,8 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.61])
-AC_INIT([mochad], [0.1.15], [mmauka@users.sourceforge.net])
+AC_PREREQ([2.64])
+AC_INIT([mochad], [0.1.16], [mmauka@users.sourceforge.net])
 #AC_CONFIG_SRCDIR([mochad.c])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror])
 
