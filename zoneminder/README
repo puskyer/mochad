@@ -1,0 +1,10 @@
+zonex.sh is a sample program showing how an X10 DS10A door/window wireless
+sensor can trigger ZoneMinder (ZM) to start recording. When zonex.sh sees a
+DS10A alerts from mochad, it sends a trigger to zmtrigger.pl on TCP port 6802
+to start recording.
+
+zmlights.sh is a sample program showing to turn lights on when ZM starts
+recording and turn lights off when ZM stops. When zmlights.sh sees events from
+zmtrigger.sh indicating ZM is recording, zmlights.sh sends commands to
+mochad to turn lights on. When ZM stops, zmlights.sh sends commands to
+mochad to turn lights off.
